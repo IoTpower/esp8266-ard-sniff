@@ -9,7 +9,7 @@ For more information of the main sniffer functionality, see the Espressif SDK do
 
 http://espressif.com/file/384/download?token=6Xs47A-_
 
-This instruction summarises the main points of the WeMos Tutorial (http://www.wemos.cc/Tutorial/get_started_in_arduino.html) and other tutorials about this topic on the internet.
+This instruction summarises the main points of the WeMos Tutorial (http://www.wemos.cc/Tutorial/get_started_in_arduino.html) and other tutorials about this topic on the Internet.
 
 ## How to get started? 
 

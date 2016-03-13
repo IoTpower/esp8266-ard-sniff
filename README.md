@@ -89,7 +89,7 @@ Restart the Arduino IDE if still executed in the background.
 
 ### Compiling and flashing
 
-Start the Arduino IDE and load the Sniffer file via ``File – Open`` from the Sniffer directory. Compile it and upload it to the board.
+Start the Arduino IDE and load the Sniffer file ```/Sniffer/Sniffer.ino``` via ``File – Open`` from the Sniffer directory. Compile it and upload it to the board.
 
 ### Start serial monitoring
 

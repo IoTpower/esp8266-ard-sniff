@@ -1,9 +1,9 @@
-ESP-8266EX sniffer on WeMos D1 mini shield  
+# ESP-8266EX sniffer on WeMos D1 mini shield  
 
 ## Content
 
-This software sketch is a port of the Espressif SDK sniffing functionality to the famous Arduino platform. 
-With this code, one is able to catch and analyse WiFi packages in the air and transmit them via UART-to-USB to a PC in order to get information like the MAC addresses of participating receivers/senders.
+This software sketch is a port of the Espressif SDK sniffing functionality to the famous Arduino platform for the WeMos D1 mini (http://www.wemos.cc). 
+With this code sketch, one is able to catch and analyse WiFi packages in the air and transmit them via UART-to-USB to a PC in order to get information like the MAC addresses of participating receivers/senders.
 
 For more information of the main sniffer functionality, see the Espressif SDK documentation:
 

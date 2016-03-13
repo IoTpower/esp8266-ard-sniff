@@ -11,7 +11,7 @@ http://espressif.com/file/384/download?token=6Xs47A-_
 
 This instruction summarises the main points of the WeMos Tutorial (http://www.wemos.cc/Tutorial/get_started_in_arduino.html) and other tutorials about this topic on the Internet.
 
-Note that the Git software is used to clone this repository, see https://git-scm.com for more information or download the whole package from the repository page.
+Note that the Git software is used to clone this repository, see https://git-scm.com for more information or download the whole package from the repository page. For executing the commands, the Git Bash console is recommended.
 
 ## How to get started? 
 
@@ -47,7 +47,7 @@ cd esp8266/tools
 python get.py
 ```
 
-If the command ``python`` is unknown to your OS, please install the Python 2 package from the respective website (https://www.python.org/download/releases/2.7.2/) and configure it to work with your system.
+If the command ``python`` is unknown to your OS, please install the Python 2 package from the respective website (https://www.python.org/download/releases/2.7.2/) and configure it to work with your system. Especially, add the python executable file path to your Windows PATH variable or use the explicit ```python``` executable in its respective directory.
 
 ### Third step
 

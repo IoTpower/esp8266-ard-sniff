@@ -11,6 +11,8 @@ http://espressif.com/file/384/download?token=6Xs47A-_
 
 This instruction summarises the main points of the WeMos Tutorial (http://www.wemos.cc/Tutorial/get_started_in_arduino.html) and other tutorials about this topic on the Internet.
 
+Note that the Git software is used to clone this repository, see https://git-scm.com for more information or download the whole package from the repository page.
+
 ## How to get started? 
 
 ### First step
@@ -27,7 +29,7 @@ http://www.arduino.cc
 
 ### Second step
 
-Clone the Arduino support of the WeMos D1 mini board into the Arduino Sketchbook (see Arduino IDE: ``Tools – Preferences`` for Sketchbook path):
+Clone the Arduino support of the WeMos D1 mini board into the Arduino Sketchbook (see Arduino IDE: ``Files – Preferences`` for Sketchbook path):
 
 ```
 cd hardware  

@@ -51,7 +51,7 @@ If the command ``python`` is unknown to your OS, please install the Python 2 pac
 
 ### Third step
 
-Start the Arduino IDE and configure the software for programming the WeMos D1 mini board under ``Tools – Board - WeMos D1 mini``. 
+Start the Arduino IDE and configure the software for programming the WeMos D1 mini board under ``Tools – Board - WeMos D1 R2 & mini``. 
 
 There are two ways to upload the code to the ESP 8266 on the board: either by USB-to-Serial using the USB plug on the board or per OTA to upload directly per WiFi.
 For first tries, one should rely on the USB variant as it is less complicated. To do so, set under ``Tools`` the following settings:
@@ -79,8 +79,7 @@ As examples are always a good way of introducing programming to oneself, it is s
 Clone this repository to the Sketchbook directory as it contains the main code and the sniffer program itself
 
 ```
-cd Sketchbook
-git clone https://github.com/IoTpower/esp8266-ard-sniffer.git Sniffer
+git clone https://github.com/IoTpower/esp8266-ard-sniff.git Sniffer
 ```
 
 ### Fifth step

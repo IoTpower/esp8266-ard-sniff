@@ -52,8 +52,7 @@ If the command ``python`` is unknown to your OS, please install the Python 2 pac
 ### Third step
 
 Start the Arduino IDE and configure the software for programming the WeMos D1 mini board under ``Tools – Board - WeMos D1 R2 & mini``. 
-
-There are two ways to upload the code to the ESP 8266 on the board: either by USB-to-Serial using the USB plug on the board or per OTA to upload directly per WiFi.
+There are two ways to upload the code to the ESP 8266 to the board: either by USB-to-Serial using the USB plug on the board or per OTA to upload directly per WiFi.
 For first tries, one should rely on the USB variant as it is less complicated. To do so, set under ``Tools`` the following settings:
 
 ```
@@ -90,7 +89,7 @@ Restart the Arduino IDE if still executed in the background.
 
 ### Compiling and flashing
 
-Start the Arduino IDE and load the Sniffer file via ``File – Open`` from the Sniffer directory. Compile it and upload it to the board
+Start the Arduino IDE and load the Sniffer file via ``File – Open`` from the Sniffer directory. Compile it and upload it to the board.
 
 ### Start serial monitoring
 
@@ -98,4 +97,4 @@ Go to ``Tools – Serial Monitor`` and set Baudrate to 115200, enjoy!
 
 ### What do I see?
 
-The first number is the channel of the monitored WiFi where the package has been captured. The second number is the length of the package and the the following columns are the Addr1, Addr2, Addr3, and Addr4 of the MAC header of the captured WiFi package. The delay times and times of scanning a specific channel can be adjusted.
+The first number is the channel of the monitored WiFi transmissions where the package has been captured. The second number is the length of the package and the following columns are the Addr1, Addr2, Addr3, and Addr4 of the MAC header of the captured WiFi package. The delay times and times of scanning a specific channel can be adjusted.

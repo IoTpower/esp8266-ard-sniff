@@ -35,7 +35,7 @@ Clone the Arduino support of the WeMos D1 mini board into the Arduino Sketchbook
 cd hardware  
 mkdir esp8266com
 cd esp8266com
-git clone https://github.com/esp8266/Arduino.git esp8266
+git clone https://github.com/esp8266/Arduino.git
 ```
 
 If the hardware directory does not exist, create it.
@@ -68,7 +68,7 @@ There are several examples for this board from WeMos directly available. Just cl
 
 ```
 cd Sketchbook
-git clone https://github.com/wemos/D1_mini_Examples.git Examples_WeMos
+git clone https://github.com/wemos/D1_mini_Examples.git
 ``` 
 
 As examples are always a good way of introducing programming to oneself, it is strongly recommended for beginners to download them.
@@ -78,7 +78,7 @@ As examples are always a good way of introducing programming to oneself, it is s
 Clone this repository to the Sketchbook directory as it contains the main code and the sniffer program itself
 
 ```
-git clone https://github.com/IoTpower/esp8266-ard-sniff.git Sniffer
+git clone https://github.com/IoTpower/esp8266-ard-sniff.git
 ```
 
 ### Fifth step

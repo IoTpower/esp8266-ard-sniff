@@ -1,4 +1,4 @@
-# ESP-8266EX sniffer on WeMos D1 mini shield  
+# ESP-8266EX sniffer on WeMos D1 mini board
 
 ## Content
 

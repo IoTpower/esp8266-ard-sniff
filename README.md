@@ -23,7 +23,7 @@ http://www.wemos.cc/downloads/
 
 Install the driver and plug the WeMos D1 mini board to your computer per USB.
 
-In addition, a key point is to install the Arduino IDE software on the local machine as the WeMos D1 mini port is supported by it directly. Download the official Arduino software from the Arduino webpage: 
+In addition, a key point is to install the Arduino IDE software on the local machine as the WeMos D1 mini board is supported by it directly. Download the official Arduino software from the Arduino webpage: 
 
 http://www.arduino.cc
 

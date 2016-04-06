@@ -80,15 +80,30 @@ Serial.printf("\t%02X:%02X:%02X:%02X:%02X:%02X", buf[i+0], buf[i+1], buf[i+2], b
 // Promiscuous callback function: is executed whenever package is received by ESP 8266
 void promisc_cb(uint8_t *buf, uint16_t len)
 {
-    if (len == 12){
+    uint8_t* buffi;
+    if ((len == 12)){
         return; // Nothing to do for this package, see Espressif SDK documentation.
-    }   
+    }
+    if (len == 12){
+        return;
+    }
+    else if (len == 128) {
+        struct sniffer_buf2 *sniffer = (struct sniffer_buf2*) buf;
+        buffi=sniffer->buf;
+    } 
+     else {
+        struct sniffer_buf *sniffer = (struct sniffer_buf*) buf;
+        buffi=sniffer->buf;
+    }
     Serial.printf("Channel %3d: Package Length %d", wifi_get_channel(), len); 
-    printMAC(buf,  4); // Print address 1
-    printMAC(buf, 10); // Print address 2
-    printMAC(buf, 16); // Print address 3
-    printMAC(buf, 24); // Print address 4 
-    Serial.printf("\n"); 
+    printMAC(buffi,  4); // Print address 1
+    printMAC(buffi, 10); // Print address 2
+    printMAC(buffi, 16); // Print address 3
+    if((bitRead(buffi[1],7)==1)&&(bitRead(buffi[1],6)==1)) printMAC(buffi, 24); // Print address 4
+    Serial.print(" "); 
+    Serial.print(bitRead(buffi[1],7));
+    Serial.print(bitRead(buffi[1],6));
+    Serial.printf("\n");
 }
 
 // Change the WiFi channel

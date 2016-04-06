@@ -71,7 +71,7 @@ struct sniffer_buf2{
     uint16_t len;
 };
 
-// Function for printing the MAC adress i of the MAC header
+// Function for printing the MAC address i of the MAC header
 void printMAC(uint8_t *buf, uint8 i)
 {
 Serial.printf("\t%02X:%02X:%02X:%02X:%02X:%02X", buf[i+0], buf[i+1], buf[i+2], buf[i+3], buf[i+4], buf[i+5]);
@@ -134,6 +134,6 @@ void setup()
 // Loop
 void loop() 
 {
-  // Duration of loop defined by delay function: note that during delay the WiFi stack can process the date in the background and is waiting for WiFi packages 
+  // Duration of loop defined by delay function: note that during delay the WiFi stack can process the data in the background and is waiting for WiFi packages 
   delay(__delay__);
 }

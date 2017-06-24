@@ -7,7 +7,7 @@ With this code sketch, one is able to catch and analyse WiFi packages in the air
 
 For more information of the main sniffer functionality, see the Espressif SDK documentation:
 
-http://espressif.com/file/384/download?token=6Xs47A-_
+http://www.espressif.com/sites/default/files/esp8266-technical_reference_en_0.pdf#page=108
 
 This instruction summarises the main points of the WeMos Tutorial (http://www.wemos.cc/Tutorial/get_started_in_arduino.html) and other tutorials about this topic on the Internet.
 
